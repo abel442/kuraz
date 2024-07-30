@@ -1,0 +1,415 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25;
+    padding: 25;
+    background-color: #f7f7f7;
+    color: #333;
+
+}
+
+header {
+
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+nav {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+
+
+nav ul {
+
+
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #333;
+}
+
+nav .btn {
+
+
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+
+
+.hero {
+
+
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: #fff;
+
+}
+
+.hero .content {
+
+    max-width: 64%;
+
+}
+
+.hero h1 {
+    font-size: 67px;
+    color: #060322;
+
+
+}
+
+
+
+
+
+.hero p {
+
+
+    font-size: 16px;
+    color: red;
+
+}
+
+
+
+.hero .p1 {
+    color: #333;
+
+}
+
+.hero .buttons {
+
+    margin-top: 40px;
+
+}
+
+
+.icon-button img {
+
+    width: 22px;
+
+
+}
+
+.hero .find-out-more {
+
+    background-color: #ffcc00;
+    color: white;
+    padding: 11px 11px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+
+.hero .play-demo {
+
+
+    text-align: justify;
+
+    text-decoration: none;
+
+}
+
+
+
+.drop {
+    display: flex;
+    margin-top: -666;
+    margin-right: -135;
+
+}
+
+.traveller {
+    display: flex;
+    padding: 0px 0px;
+    max-width: 900%;
+    text-align: center;
+    height: 768;
+
+}
+
+.traveller img {
+
+    max-width: 554;
+    margin-top: -160px;
+    margin-right: -153px;
+
+}
+
+.hero1 {
+
+
+    display: flex;
+    padding: 38px 37px;
+    background-color: #fff;
+}
+
+/* .hero2 h2{
+
+    display: flex;
+color: #060322;
+  font-size: 44px;
+    
+   justify-content: center;
+
+}
+hero2 h3{
+  display: flex;
+  justify-content: baseline;
+  
+ 
+
+
+} */
+
+.services {
+    text-align: center;
+    padding: 50px 0;
+
+
+
+}
+
+.service {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 33px;
+    background-color: #f7f7f7;
+}
+
+.service img {
+    width: 100px;
+
+}
+
+
+
+
+.place h1 {
+
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+
+
+}
+
+.place img {
+    display: inline-block;
+    width: 400px;
+
+}
+
+.trip {
+
+
+    padding: 20px;
+    width: 300px;
+}
+
+.step {
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.trip img {
+
+    margin-right: 20px;
+
+}
+
+.step p {
+
+    width: 160px;
+
+}
+
+
+.travel-girl {
+
+    display: flex;
+    justify-content:space-between;
+
+    padding: 20px 20px;
+
+}
+
+
+.travel-girl img {
+
+
+  width: 100px;
+  display: flex;
+
+   flex-direction: row;      
+}
+
+
+
+/* .steps img{
+
+display: flex;
+justify-items:left;
+  padding-right: -12px;
+} */
+/* .weather {
+  max-width: 160px;
+ padding:3rem ;
+ margin: 2rem;
+  
+} */
+
+
+
+/* .back-img{
+    display: flex;
+ justify-content:flex-end;
+ align-items: flex-end;
+ 
+
+}
+li{
+
+    text-decoration: none;
+      float: left;
+      overflow: hidden;
+     text-align: right;
+  }
+
+
+
+.image{
+    display: flex;
+ padding: 4rem;
+ margin: 5rem;
+ justify-content: flex-end;
+
+}
+
+ .nav{
+    display: flex;
+      justify-content:flex-end;
+      text-decoration: none;
+  }
+/*.back-img{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+         
+} 
+*/
+/*{
+    justify-content:end;
+    background-size: cover;
+padding:3rem ;
+margin: 4rem;
+background-image: url(figma\ pictures/Decore.png);
+
+}*/
+
+/* 
+.continer{
+padding: 0;
+margin:0;
+
+
+
+justify-content: end;
+
+}
+
+
+p.head1{
+
+    text-decoration:none;
+    text-transform:uppercase;
+    text-decoration-thickness: 22%;
+    text-decoration-style: solid;
+    font-size:1.5rem;
+    font-weight:900%;
+
+    
+}
+
+    
+
+
+ul{
+
+  
+    text-align:end;
+}
+
+
+li a{
+    text-decoration:none; 
+display: block;
+color:black;
+padding: 14px 16px;
+
+
+
+ text-align: right; 
+}
+p.text-h{
+
+padding: 18%;
+margin: 0%;
+color: red;
+
+}
+p.text{
+
+
+    padding: 0.5rem 8.4rem;
+    
+    
+}
+
+.btn{
+
+font-size: large;
+  padding: .4rem ;
+}
+
+   */
