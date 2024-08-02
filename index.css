@@ -13,41 +13,45 @@ header {
     background-color: #fff;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-
 }
-
+.container .background {
+    position: absolute;
+    top: 50;
+    left: 46.5%;
+    width: 50%;
+    height: 50%;
+    background: url('figma pictures/Decore.png') no-repeat center center;
+    background-size: cover;
+  }
 nav {
-
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 nav .logo {
     font-size: 24px;
     font-weight: bold;
     color: black;
-
-
 }
-
-
-
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
 nav ul {
-
-
     list-style: none;
     margin: 0%;
     padding: 0%;
     display: flex;
-}
 
+}
 nav ul li {
-    margin-left: 20px
+    margin-left: 120px;
+    justify-content: space-between;
+  
 }
-
 nav ul li a {
 
     text-decoration: none;
@@ -55,25 +59,15 @@ nav ul li a {
 }
 
 nav .btn {
-
-
-    padding: 5px 10px;
+   padding: 5px 10px;
     border-radius: 5px;
-
 }
-
-
-
 .hero {
-
-
     display: flex;
     align-items: center;
     padding: 30px 100px;
     background-color: #fff;
-
 }
-
 .hero .content {
 
     max-width: 64%;
@@ -83,41 +77,23 @@ nav .btn {
 .hero h1 {
     font-size: 67px;
     color: #060322;
-
-
 }
-
-
-
-
-
 .hero p {
-
-
+    
     font-size: 16px;
     color: red;
 
 }
-
-
-
 .hero .p1 {
     color: #333;
 
 }
-
 .hero .buttons {
-
     margin-top: 40px;
-
 }
-
-
 .icon-button img {
 
     width: 22px;
-
-
 }
 
 .hero .find-out-more {
@@ -128,27 +104,20 @@ nav .btn {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-    text-decoration: none;
-
+    text-decoration: none;    
 }
 
-
 .hero .play-demo {
-
-
     text-align: justify;
 
     text-decoration: none;
 
 }
-
-
-
 .drop {
     display: flex;
     margin-top: -666;
     margin-right: -135;
-
+   z-index: 5;
 }
 
 .traveller {
@@ -157,20 +126,15 @@ nav .btn {
     max-width: 900%;
     text-align: center;
     height: 768;
-
 }
 
 .traveller img {
-
-    max-width: 554;
-    margin-top: -160px;
-    margin-right: -153px;
+      
+     z-index: 3;
 
 }
 
 .hero1 {
-
-
     display: flex;
     padding: 38px 37px;
     background-color: #fff;
@@ -197,9 +161,6 @@ hero2 h3{
 .services {
     text-align: center;
     padding: 50px 0;
-
-
-
 }
 
 .service {
@@ -217,53 +178,41 @@ hero2 h3{
     width: 100px;
 
 }
-
-
-
-
 .place h1 {
 
     display: flex;
     font-size: 70px;
     justify-content: center;
-
-
 }
-
 .place img {
     display: inline-block;
     width: 400px;
-
 }
-
 .trip {
 
+    display: flex;
+   
+    justify-content: space-between;
 
-    padding: 20px;
-    width: 300px;
 }
-
 .step {
     display: flex;
 
     align-items: center;
     margin-bottom: 20px;
 }
-
+.right-content{
+    display: flex;   
+}
 
 .trip img {
 
     margin-right: 20px;
-
 }
-
 .step p {
 
     width: 160px;
-
 }
-
-
 .travel-girl {
 
     display: flex;
@@ -272,8 +221,6 @@ hero2 h3{
     padding: 20px 20px;
 
 }
-
-
 .travel-girl img {
 
 
@@ -282,6 +229,72 @@ hero2 h3{
 
    flex-direction: row;      
 }
+
+.About{
+  display: flex;
+  justify-content: space-between;
+   
+  
+}
+.About h1{
+  font-size: 64px;
+  color: #060322;
+ 
+
+}
+
+
+.add{
+display: flex;
+ padding-left: -344px; 
+}
+
+
+
+
+
+.logo{
+
+display: flex;
+
+flex-grow: 1;
+
+}
+.logos{
+
+   display: flex;
+   justify-content:center ;
+
+}
+.comment{
+
+   
+    background-color: rgb(230, 216, 218);
+}
+   .comment p{
+
+padding:55;
+margin: 33;
+
+   }
+  .emails{
+   display: flex;
+   justify-content: center;
+    padding: 88;
+    margin: 0;
+  }
+   .emails .btn{
+  
+     font-size: 19px; 
+     background-color: rgba(240, 102, 48, 0.507);
+       padding: 15px  32px;
+       text-align: center;
+       border-radius: 13px;
+        text-decoration: none;
+         cursor: pointer;
+         color: #f7f7f7;
+   }
+
 
 
 
